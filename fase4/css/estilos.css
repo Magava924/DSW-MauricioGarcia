@@ -1,0 +1,110 @@
+.encabezado{
+    background-color: rgb(42, 6, 126);
+    padding: 20px;
+    text-align: center;
+}
+
+.navegacion{
+    
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #59afe9;
+        font-family: 'Spartan', sans-serif;
+    }
+    
+    nav {
+        background-color: #a0f5b3;
+        width: 100%;
+        height: 3rem;
+        display: flex;
+    }
+    nav ul {
+        float: left;
+        display: flex;
+    }
+    
+    nav ul li {
+        float: left;
+        list-style: none;
+        position: relative;
+    }
+    
+    nav h3 {
+        padding: 1rem 2rem;
+        float: left;
+        align-self: center;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: 0rem 2rem;
+        line-height: 2rem;
+        color: #0a0a0a;
+        text-decoration: none;
+    }
+    
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        border: 1px solid #cccccc;
+        background-color: #ffffff;
+    }
+    
+    nav ul li:hover ul {
+        display: block;
+    }
+    
+    nav ul li ul li  {
+        width: 100%;
+    }
+    
+    nav ul li ul li a {
+        padding: 1rem 2rem;
+        line-height: unset;
+        white-space: nowrap;
+    }
+    
+    nav ul li ul li a:hover {
+        background-color: #efefef;
+    }
+
+.contenedor{
+    background-color: rgb(152, 99, 201);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.principal{
+    background-color: blanchedalmond;
+    padding: 30px;
+    grid-column: 1/4;
+}
+.lateral{
+    background-color: rgb(55, 55, 214);
+    padding: 30px;
+    grid-column: 4/5;
+
+}
+.pie{
+    background-color: rgb(189, 219, 247);
+    padding: 30px;
+}
+#img1{
+    float: right;
+}
+.centrar{
+    text-align: center;
+}
+#img2{
+    float: center;
+    width: 120px;
+    height: 140px;
+    padding: 30px;
+}
+iframe{
+    width: 80%;
+    height: 90vh;
+}
